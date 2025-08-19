@@ -1,0 +1,132 @@
+(footprint "LD2410S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "28d22d3d-6c38-4c92-b17b-f15a9f4730e9")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LD2410S"
+		(at 0 1.1 0)
+		(layer "F.Fab")
+		(uuid "5375f84d-b811-43f0-a1d5-851182bdaf9b")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "827c9e42-baab-4eba-b2ea-16f1f76a02fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "faaf135e-1f6b-45f5-b07a-2cc73103644e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.858 -2.667)
+		(end 7.112 -2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80f52170-738f-4383-8bc7-3f26092fb4e0")
+	)
+	(fp_rect
+		(start -6.858 -2.667)
+		(end 13.2 17.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0beb5e47-5dc5-45ac-b887-f537b9bc9c97")
+	)
+	(pad "3V3" thru_hole circle
+		(at -5.08 -1.27)
+		(size 1.6002 1.6002)
+		(drill 1.0668)
+		(layers "*.Cu" "F.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ebc08afc-5cec-4a91-98b3-1f69fa33cebd")
+	)
+	(pad "GND" thru_hole circle
+		(at -2.54 -1.27)
+		(size 1.6002 1.6002)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3c35d147-210b-44ce-8c98-0ff57c240d7a")
+	)
+	(pad "OT2" thru_hole circle
+		(at 5.08 -1.27)
+		(size 1.6002 1.6002)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f67a8334-6f76-4235-901e-93b7d995b93b")
+	)
+	(pad "RX" thru_hole circle
+		(at 2.54 -1.27)
+		(size 1.6002 1.6002)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "322e5c17-f4e2-43e6-98c6-a20d879976ec")
+	)
+	(pad "TX" thru_hole circle
+		(at 0 -1.27)
+		(size 1.6002 1.6002)
+		(drill 1.0668)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fb7cf723-1cf0-4830-bafb-0e62d34b9d4b")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/LukasBi/Downloads/HLK-LD2410S-3D/HLK-LD2410S-3D═╝/HLK-LD2410S-3D(3).step"
+		(offset
+			(xyz 13.25 -17.25 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
