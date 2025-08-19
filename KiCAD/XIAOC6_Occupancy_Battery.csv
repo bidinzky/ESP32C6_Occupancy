@@ -1,0 +1,7 @@
+"ID";"Bezeichner";"Footprint";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"U3";"ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown";1;"SHTC3";;;
+2;"J1";"JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal";1;"Conn_01x02_Socket";;;
+3;"U2";"XIAO-ESP32C6-DIP_1";1;"XIAO-ESP32-S3-SMD";;;
+4;"R1,R2";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"R200K";;;
+5;"U4";"LD2410S";1;"~";;;
+6;"U1";"ZC362800_";1;"ZC362800_";;;
